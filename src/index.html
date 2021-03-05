@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculadora de Freela - He4rtDevs</title>
-    <link rel="stylesheet" href="./main.css" />
-  </head>
-  <body>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora de Freelancer</title>
+  <link rel="stylesheet" href="./main.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <form>
+    <h3>Calculadora de Freela</h3>
+    <p>Valor total do Projeto</p>
+    <input type="number" id="valorTotal" />
+    <p>Quantidade de Horas trabalhadas</p>
+    <input type="number" id="quantidadeHoras" />
+    <p>Quantidade de Dias trabalhados</p>
+    <input type="number" id="quantidadeDias" />
+    <p>Quantidade de Dias de Férias</p>
+    <input type="number" id="quantidadeFerias" />
+    <input type="submit" value="Enviar" onclick="Calcular();" />
     <div>
-      <h1>Olá mundo.</h1>
+      <p>Valor da sua Hora</p>
+      <input type="number" id="res" />
     </div>
-    <script src="./main.js"></script>
-  </body>
+  </form>
+  <script src="./main.js"></script>
+</body>
+
 </html>
